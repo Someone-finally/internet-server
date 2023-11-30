@@ -1,0 +1,91 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Espressif\frameworks\esp-idf-v5.0.1\examples\Hobby projects\IoT_project\internet-server\build\bootloader\esp-idf\esptool_py" && c:\Espressif\frameworks\esp-idf-v5.0.1\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/9] cmd.exe /C "cd /D "C:\Espressif\frameworks\esp-idf-v5.0.1\examples\Hobby projects\IoT_project\internet-server\build\esp-idf\main" && c:\Espressif\frameworks\esp-idf-v5.0.1\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/components/fatfs/fatfsgen.py "C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/site/dist" --long_name_support --use_default_datetime --partition_size 0x200000 --output_file "C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/storage.bin" --sector_size 4096 --sectors_per_cluster 1 --fat_type 0"
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[4/9] Linking C static library esp-idf\main\libmain.a
+[5/9] Generating ld/sections.ld
+[6/9] Linking CXX executable internet-server.elf
+[7/9] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/internet-server.bin
+[8/9] cmd.exe /C "cd /D "C:\Espressif\frameworks\esp-idf-v5.0.1\examples\Hobby projects\IoT_project\internet-server\build\esp-idf\esptool_py" && c:\Espressif\frameworks\esp-idf-v5.0.1\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app "C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/partition_table/partition-table.bin" "C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/internet-server.bin""
+internet-server.bin binary size 0xd24d0 bytes. Smallest app partition is 0x100000 bytes. 0x2db30 bytes (18%) free.
+[8/9] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.0.1\components\esptool_py && C:\Espressif\frameworks\esp-idf-v5.0.1\tools\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.0.1 -D SERIAL_TOOL=c:/Espressif/frameworks/esp-idf-v5.0.1/tools/python_env/idf5.0_py3.8_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.0.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D "WORKING_DIRECTORY=C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build" -P C:/Espressif/frameworks/esp-idf-v5.0.1/components/esptool_py/run_serial_tool.cmake"
+esptool esp32 -p COM4 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 internet-server.bin 0x8000 partition_table/partition-table.bin 0x110000 storage.bin
+esptool.py v4.5.1
+Serial port COM4
+Connecting......
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 7c:87:ce:f4:8d:34
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000e2fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x00110000 to 0x0030ffff...
+Compressed 26384 bytes to 16453...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076ad... (100 %)
+Wrote 26384 bytes (16453 compressed) at 0x00001000 in 0.8 seconds (effective 266.7 kbit/s)...
+Hash of data verified.
+Compressed 861392 bytes to 555118...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001b488... (5 %)
+Writing at 0x00025fc9... (8 %)
+Writing at 0x0002b1b6... (11 %)
+Writing at 0x00033a7a... (14 %)
+Writing at 0x0003aca7... (17 %)
+Writing at 0x000405bc... (20 %)
+Writing at 0x0004614b... (23 %)
+Writing at 0x0004b93d... (26 %)
+Writing at 0x000513b2... (29 %)
+Writing at 0x00056c4e... (32 %)
+Writing at 0x0005c413... (35 %)
+Writing at 0x00061af1... (38 %)
+Writing at 0x0006733e... (41 %)
+Writing at 0x0006cca4... (44 %)
+Writing at 0x000729d5... (47 %)
+Writing at 0x000784f1... (50 %)
+Writing at 0x0007e140... (52 %)
+Writing at 0x0008338d... (55 %)
+Writing at 0x0008883a... (58 %)
+Writing at 0x0008d9f3... (61 %)
+Writing at 0x00093175... (64 %)
+Writing at 0x00098867... (67 %)
+Writing at 0x0009e2a4... (70 %)
+Writing at 0x000a3ac8... (73 %)
+Writing at 0x000a946f... (76 %)
+Writing at 0x000af775... (79 %)
+Writing at 0x000b5b5f... (82 %)
+Writing at 0x000bb5eb... (85 %)
+Writing at 0x000c167a... (88 %)
+Writing at 0x000c9a09... (91 %)
+Writing at 0x000d1f3e... (94 %)
+Writing at 0x000d7eb8... (97 %)
+Writing at 0x000dd765... (100 %)
+Wrote 861392 bytes (555118 compressed) at 0x00010000 in 13.5 seconds (effective 510.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 119...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (119 compressed) at 0x00008000 in 0.1 seconds (effective 424.8 kbit/s)...
+Hash of data verified.
+Compressed 2097152 bytes to 52803...
+Writing at 0x00110000... (25 %)
+Writing at 0x00121eeb... (50 %)
+Writing at 0x0012ef35... (75 %)
+Writing at 0x0013c9d3... (100 %)
+Wrote 2097152 bytes (52803 compressed) at 0x00110000 in 14.0 seconds (effective 1201.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

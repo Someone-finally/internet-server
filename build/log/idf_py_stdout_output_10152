@@ -1,0 +1,20 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D "C:\Espressif\frameworks\esp-idf-v5.0.1\examples\Hobby projects\IoT_project\internet-server\build\bootloader\esp-idf\esptool_py" && c:\Espressif\frameworks\esp-idf-v5.0.1\tools\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 "C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/bootloader.bin""
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/main/main.c:10:21: warning: 'TAG' defined but not used [-Wunused-variable]
+   10 | static const char * TAG = "Internet CLIENT";
+      |                     ^~~
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable internet-server.elf
+FAILED: internet-server.elf 
+cmd.exe /C "cd . && C:\Espressif\frameworks\esp-idf-v5.0.1\tools\tools\xtensa-esp32-elf\esp-2022r1-11.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe -mlongcalls -Wno-frame-address  @CMakeFiles\internet-server.elf.rsp -o internet-server.elf  && cd ."
+c:/espressif/frameworks/esp-idf-v5.0.1/tools/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: esp-idf/main/libmain.a(main.c.obj):(.literal.toggle_led_url+0xc): undefined reference to `toggle_bool'
+c:/espressif/frameworks/esp-idf-v5.0.1/tools/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: esp-idf/main/libmain.a(main.c.obj):(.literal.app_main+0x10): undefined reference to `init_led'
+c:/espressif/frameworks/esp-idf-v5.0.1/tools/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: esp-idf/main/libmain.a(main.c.obj): in function `toggle_led_url':
+C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/main/main.c:34: undefined reference to `toggle_bool'
+c:/espressif/frameworks/esp-idf-v5.0.1/tools/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/11.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: esp-idf/main/libmain.a(main.c.obj): in function `app_main':
+C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/main/main.c:69: undefined reference to `init_led'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.

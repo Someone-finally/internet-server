@@ -1,0 +1,197 @@
+# ninja log v5
+13734	14705	7189607523545341	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_sha.c.obj	9c1d685012eed14a
+9	390	7180098701208876	project_elf_src_esp32.c	a9ec1422b686010e
+5483	6312	7189607440090310	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj	8d1dc45757f40dd6
+9	390	7180098701208876	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/project_elf_src_esp32.c	a9ec1422b686010e
+11941	13037	7189607506500917	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj	b4e9a40b4be67f50
+147	5519	7189607428850372	esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj	30cc5e2433b41dfa
+13778	14307	7189607519516142	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console_loader.c.obj	d8e18e3233ca7555
+40	1825	7180098715180462	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/eri.c.obj	43fce6d1eccf92a9
+57	5555	7189607428840400	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj	e009c1c11a5e21b4
+68	5317	7189607428840400	esp-idf/soc/CMakeFiles/__idf_soc.dir/lldesc.c.obj	fb1b2a62b7840ee2
+6237	6944	7189607445705296	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj	70826947955e0126
+12680	13755	7189607514280116	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj	8ccb98dc428927a8
+15749	18206	7189607558610795	esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj	9142f3035fce8332
+862	2371	7180098715225758	CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj	a001ccb2c1320442
+20	5241	7189607428758891	esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj	9ddd15d7426695c4
+5712	6669	7189607442274473	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/interrupts.c.obj	4aa0d6832f69da72
+7592	8816	7189607465033613	esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj	c7a3584ac3b20776
+12947	13931	7189607516224919	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj	988498c3d37344f0
+12838	13838	7189607515227586	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj	c216b1b124d66d0f
+5164	5711	7189607434355654	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj	7690df101face9f4
+10698	12861	7189607505516392	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj	a6e56d75815b811
+133	5211	7189607428822078	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj	dbda9b6a06770903
+140	5162	7189607428680825	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj	4b041ba934847c59
+5520	6108	7189607437646856	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj	3e5c7f7451ccabaf
+5212	5845	7189607435612292	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj	b408e6689df1c17c
+5556	6235	7189607438424774	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj	4a0ec60cd7d125fd
+6820	7591	7189607452826263	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj	42aae7a959386eed
+12862	13777	7189607514519481	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj	f22d66bde00a6c30
+15418	18397	7189607559209198	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj	270744afa0cbe3f4
+5242	6015	7189607437168121	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj	7017e06aa5b7099e
+5846	6819	7189607444139487	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj	954077581ff73740
+8817	9878	7189607474996960	esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj	2548adb07ca1e7f9
+6861	7896	7189607454940608	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj	c5362e3a4d53dc47
+7826	9124	7189607467556863	esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj	7334c8aff2f9c974
+10723	11940	7189607496281113	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj	739262135088e9d6
+6109	6899	7189607445994516	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj	1dfc438bfb53ff46
+13932	15689	7189607533129789	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj	3000de26dc26fe2
+6671	8087	7189607457577584	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj	e8b8a55e377a74c4
+9880	11754	7189607494196665	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj	f4905546388c0431
+6900	7825	7189607454262416	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/touch_sensor_periph.c.obj	b61b0cd3e5e2009b
+15177	16568	7189607542265290	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj	1fc969e78cfbbe8a
+6042	6860	7189607444179390	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj	eb3f42ebc344dbd7
+6313	7518	7189607451729194	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj	9d1a22677fe97dd4
+6945	7643	7189607453604167	esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj	6357b203a1f1b5e
+7519	8636	7189607463417931	esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj	45f4da37003a1714
+7644	8375	7189607460435917	esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj	8c80e9a91aa70f94
+11858	12837	7189607505087539	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj	e1c1d7c601845787
+8772	10144	7189607476802138	esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj	cc809e24d2f7fefc
+10145	11857	7189607494974592	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj	eb8f5b7236a1f46f
+11489	12679	7189607503501784	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj	651c8f49c32a2581
+18398	20317	7189607579115961	esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj	6d2fd19f966ea355
+9288	10625	7189607483006597	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj	5f8be4dcdcd7bc7b
+19831	20761	7189607584302089	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_regi2c.c.obj	87b7fb4af62fb610
+13839	15376	7189607529439571	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj	8f12c0ee44b99d24
+11756	12946	7189607506251585	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj	290abe6b598dd3f0
+12802	13719	7189607514439686	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj	44d87d25fee28012
+9124	10697	7189607483455400	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj	6af3be41e00590fa
+4696	10248	7180098798683039	esp-idf/micro-ecc/CMakeFiles/__idf_micro-ecc.dir/uECC_verify_antifault.c.obj	434bde980f7fb19c
+13039	13799	7189607514918397	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_loader.c.obj	cc677b07673c6060
+13756	15416	7189607530179681	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj	aa63e48b68838802
+10627	12801	7189607505237141	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj	baff54ab3b4f5d36
+13800	15175	7189607526856474	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj	8d079d401bcfa73e
+15377	18228	7189607558800287	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj	3ff50f27597918d
+12422	14324	7180098837050247	esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_soc.c.obj	4f5a83b2b61a9da9
+14308	15748	7189607534236756	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj	434d9c70f1e5ad68
+15691	18299	7189607559149367	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj	544bc7a3bdaa7060
+8089	9287	7189607469491680	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj	e010286c8148e75b
+8376	11482	7189607491806500	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj	fa3408d977914aa9
+7897	8771	7189607464594781	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj	b7e18fe21fb54081
+14706	16340	7189607539742023	esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj	5980cd88b0a1895d
+16341	18419	7189607561373411	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj	267b5d49930988a2
+18301	19256	7189607569232410	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_pm.c.obj	99bf32c20c1fdbcf
+8637	10721	7189607483924148	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj	fbffd774cb0a7e6b
+18209	18949	7189607566120719	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj	1533127c3dec61b1
+18231	20297	7189607579235695	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj	f0c78c1ff7df7055
+17887	18678	7180098883585870	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_crc.c.obj	e71dd3564be5b399
+18420	19829	7189607574617996	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj	2c6d9212725d27ff
+19258	20432	7189607580741622	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj	55cc104d51f856ec
+16570	18482	7189607561802267	esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj	fedcdd65039a9b45
+20299	21263	7189607589408442	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj	9d115c4bed3136dc
+18950	20276	7189607578538114	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj	e96e988b10854eda
+18483	20542	7189607582038159	esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj	38bf04d4299b63cb
+20318	21628	7189607592260819	esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj	b87eec0488b8b6fa
+20277	21690	7189607593687008	esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj	ebb6eb838d7f4620
+26903	27545	7189607651901313	esp-idf/efuse/libefuse.a	8c7a60ca2dc033b6
+20433	21661	7189607593048702	esp-idf/log/CMakeFiles/__idf_log.dir/log_noos.c.obj	ba27de7163a4acaa
+20544	21835	7189607595124721	esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj	14a7421577592b85
+21691	23048	7189607606323211	esp-idf/log/liblog.a	e0d8684697085b9f
+23048	24347	7189607620146231	esp-idf/esp_rom/libesp_rom.a	9d0c498cfb4b998e
+24348	25426	7189607630545908	esp-idf/esp_common/libesp_common.a	10e28f582ae21fef
+25427	26640	7189607643334229	esp-idf/esp_hw_support/libesp_hw_support.a	aaf8f70a07b8e5c0
+26657	26902	7189607646695243	esp-idf/esp_system/libesp_system.a	79345032f938a020
+27546	28972	7189607666781517	esp-idf/bootloader_support/libbootloader_support.a	dc94c5c17afafb59
+28973	29569	7189607672707233	esp-idf/esp_app_format/libesp_app_format.a	cd53f5e908fabb81
+29571	30170	7189607677747341	esp-idf/hal/libhal.a	be6acc9ddb36e171
+26399	26785	7180098965706413	esp-idf/micro-ecc/libmicro-ecc.a	908d07c06d223df5
+30171	36810	7189607745319721	esp-idf/soc/libsoc.a	de7c22de78feb550
+36811	37388	7189607750735238	esp-idf/xtensa/libxtensa.a	3dbff358f9c33d08
+37389	37968	7189607756828948	esp-idf/main/libmain.a	6335bd71f7217f3d
+37969	42940	7189607804405233	bootloader.elf	3097a2cedab0bb39
+42940	49867	7189607876456448	.bin_timestamp	a120f60e8070383b
+42940	49867	7189607876456448	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/.bin_timestamp	a120f60e8070383b
+14	249	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+14	249	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+8	28905	7192576883821512	build.ninja	97144de232673af2
+56	12118	7192576883821512	build.ninja	97144de232673af2
+12	232	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+12	232	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	213	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	213	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	228	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	228	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+21	258	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+21	258	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+20	246	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+20	246	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	226	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	226	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	256	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	256	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	243	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	243	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	216	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	216	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	230	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	230	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+19	236	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+19	236	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	248	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	248	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+20	226	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+20	226	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	223	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	223	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+21	253	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+21	253	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+24	244	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+24	244	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	216	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	216	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+20	250	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+20	250	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	241	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	241	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	219	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	219	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	240	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	240	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+19	238	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+19	238	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+15	368	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+15	368	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+15	233	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+15	233	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+14	237	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+14	237	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	247	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	247	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+21	227	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+21	227	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	243	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	243	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	252	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	252	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+111	657	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+111	657	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	227	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	227	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+37	219	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+37	219	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	242	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	242	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+11	330	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+11	330	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+13	350	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+13	350	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+19	274	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+19	274	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+37	421	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+37	421	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	250	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	250	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	205	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+18	205	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	236	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+16	236	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+24	377	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+24	377	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+15	211	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+15	211	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+14	195	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+14	195	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	230	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	230	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	226	0	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
+17	226	0	C:/Espressif/frameworks/esp-idf-v5.0.1/examples/Hobby projects/IoT_project/internet-server/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	c450ecc71044c1d6
