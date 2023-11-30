@@ -1,30 +1,26 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- |
+| Supported Targets | ESP32 huzzah |
+| ----------------- | ----- | 
 
-# _Sample project_
-
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+# _IoT Project using Huzzah32_
+Esp32-huzzah that hosts a website for IoT applications. The website is created using Vite and uses React js library. Different protocols for communication of sensor readings are also implemented.
 
 
+## Configurations 
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+Target :  Esp32-huzzah aka huzzah32
+esp idf version : 5.0.1
 
-## Example folder contents
+Sensors used : 
+Potentiometer : 1
+LED : 1
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
+To be implemented
+Tilt sensor : SW-520D 
+Temp & Relative Humidity sensor : SHT21
 
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
 
-Below is short explanation of remaining files in the project folder.
+## Folder contents
 
-```
 ├── CMakeLists.txt
 ├── main
 │   ├── CMakeLists.txt
