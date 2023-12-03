@@ -16,10 +16,8 @@ Sensors used :
 Potentiometer : 1
 LED : 1
 
-To be implemented
-
 Tilt sensor : SW-520D 
-Temp & Relative Humidity sensor : SHT21
+Temp & Relative Humidity sensor : SHT21 : : 12C communication required
 
 Changes in Partition Table :
 
