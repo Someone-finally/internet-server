@@ -8,16 +8,24 @@ Esp32-huzzah that hosts a website for IoT applications. The website is created u
 ## Configurations 
 
 Target :  Esp32-huzzah aka huzzah32
+
 esp idf version : 5.0.1
 
 Sensors used : 
+
 Potentiometer : 1
 LED : 1
 
 To be implemented
+
 Tilt sensor : SW-520D 
 Temp & Relative Humidity sensor : SHT21
 
+Changes in Partition Table :
+
+FAT Storage is set to 2MB : To host the assets of Vite website.
+
+Total memory utilised for assets in code is 149.91 kB
 
 ## Folder contents
 
