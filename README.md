@@ -24,6 +24,15 @@ Changes in Partition Table :
 FAT Storage is set to 2MB : To host the assets of Vite website.
 
 Total memory utilised for assets in code is 149.91 kB
+Assets included: 
+
+## To be implemented 
+
+API to access weather : Using Random API 
+
+SHT21 for temperature and humidity : 
+
+
 
 ## Folder contents
 
