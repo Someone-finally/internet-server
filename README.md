@@ -2,7 +2,7 @@
 | ----------------- | ----- | 
 
 # _IoT Project using Huzzah32_
-Esp32-huzzah that hosts a website for IoT applications for precise weather measurement for agricultural usecases . The esp32 website is created using Vite and uses React js library and the firmware for wifi, sensor connectivity is written by hand. Different protocols for communication of sensor readings such as REST, websockets, MQTT are also implemented.
+Developed an Esp32-Huzzah platform that hosts a website catering to IoT applications, ensuring sensor measurements across various commercial use cases. The website is built using Vite and leveraging the React.js library, offers a user-friendly interface. I handcrafted firmware to enable Wi-Fi functionality, sensor connectivity, and diverse communication protocols including REST, WebSockets, and MQTT—for transmitting sensor readings.
 
 
 ## Configurations 
